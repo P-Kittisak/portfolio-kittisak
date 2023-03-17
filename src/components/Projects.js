@@ -50,7 +50,7 @@ export const Projects = () => {
       {
         title: "ตัวอย่างโปรเจค",
         description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
+        imgUrl: images2['./Shop-หน้าจัดการคำสั่งซื้อ.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
