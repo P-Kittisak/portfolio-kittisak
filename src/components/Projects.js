@@ -17,65 +17,97 @@ export const Projects = () => {
     const projects = [
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
+        description: "Admin : หน้าจัดการหมวดหมู่สินค้า",
         imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./4Admin-หน้าจอคำร้องขอเพิ่มชุมชน.png'],
-      },
-      {
-        title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./4ชุมชน-หน้าจอสินค้าชุมชน.png'],
-      },
-      {
-        title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
+        description: "Admin : หน้าจอจัดการค่าส่งกรุงเทพ",
         imgUrl: images2['./7Admin-หน้าจอจัดการค่าส่งกรุงเทพ.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./Shop-หน้าจอจัดการสินค้าชุมชน.png'],
+        description: "Admin : หน้าจอแสดงคำร้องขอเพิ่มชุมชน",
+        imgUrl: images2['./4Admin-หน้าจอคำร้องขอเพิ่มชุมชน.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./Shop-หน้าจัดการคำสั่งซื้อ.png'],
+        description: "หน้าเข้าสู่ระบบ",
+        imgUrl: images2['./User-หน้าเข้าสู่ระบบ.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หน้าค้นหาสินค้าpng",
+        imgUrl: images2['./User-หน้าค้นหาสินค้าpng.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "User : หน้าจอตะกร้าสินค้าแบบไม่มีสินค้า",
+        imgUrl: images2['./User-หน้าจอตะกร้าสินค้าแบบไม่มีสินค้า.png'],
       },
     ];
     const projects2 = [
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
+        description: "หัวหน้าชุมชน : หน้าจอแสดงโปรไฟล์ชุมชน",
+        imgUrl: images2['./6ชุมชน-หน้าจอแสดงโปรไฟล์ชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หัวหน้าชุมชน : หน้าจอสรุปยอดขายสินค้า",
+        imgUrl: images2['./9ชุมชน-หน้าจอสรุปยอดขายสินค้า.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หัวหน้าชุมชน : หน้าจอสมาชิกชุมชน",
+        imgUrl: images2['./3ชุมชน-หน้าจอสมาชิกชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หัวหน้าชุมชน : หน้าจอสินค้าชุมชนทั้งหมด",
+        imgUrl: images2['./4ชุมชน-หน้าจอสินค้าชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หัวหน้าชุมชน : หน้าจอแสดงที่อยู่ชุมชน",
+        imgUrl: images2['./5ชุมชน-หน้าจอแสดงที่อยู่ชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "หน้าจอเปลี่ยนรหัสผ่าน",
+        imgUrl: images2['./หน้าจอเปลี่ยนรหัสผ่าน.png'],
+      },
+    ];
+    const projects3 = [
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "ร้านค้า : หน้าจอจัดการสินค้าชุมชน",
+        imgUrl: images2['./Shop-หน้าจอจัดการสินค้าชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "ร้านค้า : หน้าจอเพิ่มสินค้าชุมชน",
+        imgUrl: images2['./Shop-หน้าจอเพิ่มสินค้าชุมชน.png'],
+      },
+      {
+        title: "ตัวอย่างโปรเจค",
+        description: "ร้านค้า : หน้าจัดการคำสั่งซื้อ",
         imgUrl: images2['./Shop-หน้าจัดการคำสั่งซื้อ.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
+        description: "หน้าจอรายละเอียดสินค้า",
+        imgUrl: images2['./User-หน้าจอรายละเอียดสินค้า.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
+        description: "User : หน้าเพิ่มที่อยู่",
+        imgUrl: images2['./User-หน้าเพิ่มที่อยู่.png'],
       },
       {
         title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
-      },
-      {
-        title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
-      },
-      {
-        title: "ตัวอย่างโปรเจค",
-        description: "MSC TH",
-        imgUrl: images2['./1Admin-หน้าจัดการหมวดหมู่สินค้า.png'],
+        description: "User : หน้าเพิ่มสินค้าลงตะกร้า",
+        imgUrl: images2['./User-หน้าเพิ่มสินค้าลงตะกร้า.png'],
       },
     ];
 
@@ -131,7 +163,7 @@ export const Projects = () => {
                   <Tab.Pane eventKey="third">
                     <Row>
                       {
-                        projects.map((project, index) => {
+                        projects3.map((project, index) => {
                           return(
                             <ProjectCard
                               key={index}
