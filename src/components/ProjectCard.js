@@ -8,8 +8,8 @@ export const ProjectCard = ({ title, description, imgUrl}) => {
                     <div className="proj-imgbx">
                         <img src={imgUrl} style={{ width: '100%', height: '500px' }}/>
                             <div className="proj-txtx">
-                                <h4>{title}</h4>
-                                <span>{description}</span>
+                                <h1>{title}</h1>
+                                <h2>{description}</h2>
                             </div>
                     </div>
                 </a>

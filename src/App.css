@@ -95,7 +95,8 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    height: 30%;
+    width: 20%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -446,16 +447,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
-  font-size: 30px;
+.proj-txtx h1 {
+  color: #6666ff;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx span {
+.proj-txtx h2 {
+  color: #00ffff;
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 30px;
   letter-spacing: 0.8px;
 }
 .background-image-right {

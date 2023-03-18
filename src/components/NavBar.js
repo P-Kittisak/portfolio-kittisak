@@ -34,7 +34,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={images['./logo.svg']} alt="Logo" />
+            <img src={images['./logo-portfolio3.png']} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -47,12 +47,12 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={images['./nav-icon1.svg']} alt="" /></a>
+                <a href="https://github.com/P-Kittisak"><img src={images['./git-icon2.png']} alt="" /></a>
                 <a href="https://www.facebook.com/pond.tintongkob/" target="_blank"><img src={images['./nav-icon2.svg']} alt="" /></a>
-                <a href="#"><img src={images['./nav-icon3.svg']} alt="" /></a>
+                {/* <a href="#"><img src={images['./nav-icon3.svg']} alt="" /></a> */}
               </div>
               { //<HashLink to='#connect'>
-                <button className="vvd" src='https://drive.google.com/file/d/1HY01o6jl5gNcMAKZJtvsMCr3PzeM-GiQ/view?usp=sharing'><span>Resume</span></button>
+                <a href='https://drive.google.com/file/d/1HY01o6jl5gNcMAKZJtvsMCr3PzeM-GiQ/view?usp=sharing' target={'_blank'}><button className="vvd"><span>Resume</span></button></a>
               //</span></HashLink> 
             }
             </span>

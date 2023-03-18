@@ -18,11 +18,10 @@ export const Footer = () => {
                     </Col> */}
                     <Col sm={12} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href=""><img src={images['./nav-icon1.svg']} /></a>
-                            <a href=""><img src={images['./nav-icon2.svg']} /></a>
-                            <a href=""><img src={images['./nav-icon3.svg']} /></a>
+                            <a href="https://github.com/P-Kittisak"><img src={images['./git-icon2.png']} /></a>
+                            <a href="https://www.facebook.com/pond.tintongkob/"><img src={images['./nav-icon2.svg']} /></a>
                         </div>
-                        <p>CopyRight 2022. Kittisak Tintongkob</p>
+                        <p>Portfolio By Kittisak Tintongkob</p>
                     </Col>
                 </Row>
             </Container>
